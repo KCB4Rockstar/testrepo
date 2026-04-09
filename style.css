@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(img/bg.jfif);
+	background-size: cover;
+}
+
+button{
+	font-size: 16px;
+}
+
+section{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fancyButton{
+	border: 1px solid black;
+	padding: 10px;
+	background: pink;
+}
+
+#buttonDiv{
+	text-align: center;
+}
+
+.bandBox{
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.bandBox>img{
+	width: 300px;
+	height: 300px;
+}
+
+.bandContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bandBox p{
+	font-size: 20px;
+}
+
+.uniqueBox{
+	background-image: url(img/bg.jfif);
+	background-size: contain;
+}
